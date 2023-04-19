@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Logo from "../assets/images/star_wars_img.png";
 import ClipLoader from "react-spinners/ClipLoader";
 
-//https://swapi.dev/api/films
 
 const MovieList = () => {
   const [loading, setLoading] = useState(true);
